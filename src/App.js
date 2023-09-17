@@ -31,6 +31,7 @@ function App() {
           alt="Profile"
         />
       </div> 
+      
       <Introduction/>
       <Strengths/>
       <Languages/>
