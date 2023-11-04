@@ -36,151 +36,192 @@ import PyTorch from "../assets/Logos/PyTorch.png";
 
 const Languages = () => {
   return (
-    <div className='font-montserrat'>
-        <h1 className='flex justify-center text-3xl mb-20'>Programming Languages</h1>
-        <div className='grid  grid-flow-col grid-cols-5 grid-rows-2 gap-20  justify-items-center mx-5'>
+    <div>
+      {/* <div class="min-h-screen flex items-center justify-center px-4">
+        <div class="grid grid-cols-3 gap-8 w-full">
+          {/* <!-- Column 1 --> */}
+          {/* <div class="flex flex-col space-y-4">
+            <div class="bg-blue-500 p-4">Languages</div>
             <div>
-            <img className="h-20 w-20" src={Python} alt="Profile"/>
-            <p>Python</p>
-            </div>
+              <img className="h-14 w-14" src={Python} alt="Profile" />
+              <p>Python</p>
+            </div> */}
 
-            <div>
-            <img className="h-20 w-20" src={Java}  alt="Profile"/>
-            <p>Java</p>
-            </div>
+            {/* <div>
+              <img className="h-14 w-14" src={Java} alt="Profile" />
+              <p>Java</p>
+            </div> */} 
 
-            <div>
-            <img className="h-20 w-20 rounded-md" src={JavaScript}  alt="Profile"/>
-            <p>JavaScript</p>
+            {/* <div>
+              <img
+                className="h-14 w-14 rounded-md"
+                src={JavaScript}
+                alt="Profile"
+              />
+              <p>JavaScript</p>
             </div>
+          </div> */}
 
-            <div>
-            <img className="h-20 w-20 rounded-md" src={TypeScript}  alt="Profile"/>
-            <p>TypeScript</p>
-            </div>
+          {/* <!-- Column 2 --> */}
+          {/* <div class="flex flex-col space-y-4">
+            <div class="bg-green-500 p-4">Frameworks</div>
+            <div class="bg-green-500 p-4">Row 2, Column 2</div>
+          </div> */}
 
-            <div>
-            <img className="h-20 w-20" src={Arduino} alt="Profile"/>
-            <p>Arduino</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20 rounded-md" src={Solidity} alt="Profile"/>
-            <p>Solidity</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20" src={R} alt="Profile"/>
-            <p>R</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20" src={Arm} alt="Profile"/>
-            <p>Arm</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20 " src={Intel} alt="Profile"/>
-            <p>Intel x86</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20" src={VBA} alt="Profile"/>
-            <p>VBA</p>
-            </div>
-
+          {/* <!-- Column 2 --> */}
+          {/* <div class="flex flex-col space-y-4">
+            <div class="bg-green-500 p-4">Programs & Applications</div>
+            <div class="bg-green-500 p-4">Row 2, Column 2</div>
+          </div>
         </div>
-        
-        <br></br>
+      </div> */}
 
-        
-        <h1 className='flex justify-center text-3xl mb-20 mt-20'>Frameworks</h1>
-        <div className='grid  grid-flow-col grid-cols-5  gap-20  justify-items-center mx-5'>
-     
-            <div>
-            <img className="h-20 w-20" src={ReactLogo} alt="Profile"/>
-            <p>React</p>
-            </div>
+      {/* original code below----------------------------------------------------- */}
 
-            <div>
-            <img className="h-20 w-20" src={ReactNative} alt="Profile"/>
-            <p>React Native</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20 rounded-md" src={Web3} alt="Profile"/>
-            <p>Web3</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20" src={Expo} alt="Profile"/>
-            <p>Expo</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20 rounded-md" src={Git} alt="Profile"/>
-            <p>Git</p>
-            </div>
-   
+      <h1 className="flex justify-center text-3xl mb-20">Languages</h1>
+      <div className="grid  grid-flow-col grid-cols-10 grid-rows-1 gap-x-5 gap-y-10  justify-items-center mx-5">
+        <div>
+          <img className="h-20 w-20" src={Python} alt="Profile" />
+          <p className="text-center">Python</p>
         </div>
 
+        <div>
+          <img className="h-20 w-20" src={Java} alt="Profile" />
+          <p className="text-center">Java</p>
+        </div>
 
+        <div>
+          <img
+            className="h-20 w-20 rounded-md"
+            src={JavaScript}
+            alt="Profile"
+          />
+          <p className="text-center">JavaScript</p>
+        </div>
 
-        <br></br>
+        <div>
+          <img
+            className="h-20 w-20 rounded-md"
+            src={TypeScript}
+            alt="Profile"
+          />
+          <p className="text-center">TypeScript</p>
+        </div>
 
-        <h1 className='flex justify-center text-3xl mb-20 mt-20'>Computer - Aided- Engineering Software</h1>
+        <div>
+          <img className="h-20 w-20" src={Arduino} alt="Profile" />
+          <p className="text-center">Arduino</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20 rounded-md" src={Solidity} alt="Profile" />
+          <p className="text-center">Solidity</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20" src={R} alt="Profile" />
+          <p className="text-center">R Studio</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20 bg-white rounded" src={Arm} alt="Profile" />
+          <p className="text-center">Arm</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20 " src={Intel} alt="Profile" />
+          <p className="text-center">Intel x86</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20" src={VBA} alt="Profile" />
+          <p className="text-center">VBA</p>
+        </div>
+      </div>
+
+      <br></br>
+
+      <h1 className="flex justify-center text-3xl mb-20 mt-20">Frameworks</h1>
+      <div className="grid  grid-flow-col grid-cols-5  gap-20  justify-items-center mx-5">
+        <div>
+          <img className="h-20 w-20" src={ReactLogo} alt="Profile" />
+          <p className="text-center">React</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20" src={ReactNative} alt="Profile" />
+          <p className="text-center">React Native</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20 rounded-md" src={Web3} alt="Profile" />
+          <p className="text-center">Web3</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20" src={Expo} alt="Profile" />
+          <p className="text-center">Expo</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20 rounded-md" src={Git} alt="Profile" />
+          <p className="text-center">Git</p>
+        </div>
+      </div>
+
+      <br></br>
+
+      {/* <h1 className='flex justify-center text-3xl mb-20 mt-20'>Computer - Aided- Engineering Software</h1>
         <div className='grid  grid-flow-col grid-cols-4  gap-40  justify-items-center mx-5'>
      
             <div>
             <img className="h-20 w-20 rounded-md" src={SolidWorks} alt="Profile"/>
-            <p>SolidWorks</p>
+            <p className='text-center'>SolidWorks</p>
             </div>
 
             <div>
             <img className="h-20 w-20" src={AutoCAD} alt="Profile"/>
-            <p>AutoCAD</p>
+            <p className='text-center'>AutoCAD</p>
             </div>
 
             <div>
             <img className="h-20 w-20 rounded-md" src={MasterCAM} alt="Profile"/>
-            <p>MasterCAM</p>
+            <p className='text-center'>MasterCAM</p>
             </div>
 
             <div>
             <img className="h-20 w-20" src={Unity} alt="Profile"/>
-            <p>Unity</p>
+            <p className='text-center'>Unity</p>
             </div>
  
+        </div> */}
+
+      <h1 className="flex justify-center text-3xl mb-20 mt-20">
+        Programs and Applications
+      </h1>
+      <div className="grid  grid-flow-col grid-cols-4  gap-40  justify-items-center mx-5 mb-40">
+        <div>
+          <img className="h-20 w-20 rounded-md" src={Pandas} alt="Profile" />
+          <p className="text-center">Pandas</p>
         </div>
 
-        <h1 className='flex justify-center text-3xl mb-20 mt-20'>Libraries</h1>
-        <div className='grid  grid-flow-col grid-cols-4  gap-40  justify-items-center mx-5 mb-40'>
-     
-            <div>
-            <img className="h-20 w-20 rounded-md" src={Pandas} alt="Profile"/>
-            <p>Pandas</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20" src={OpenCV} alt="Profile"/>
-            <p>OpenCV</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20" src={Tensorflow} alt="Profile"/>
-            <p>Tensorflow</p>
-            </div>
-
-            <div>
-            <img className="h-20 w-20" src={PyTorch} alt="Profile"/>
-            <p>PyTorch</p>
-            </div>
-
+        <div>
+          <img className="h-20 w-20" src={OpenCV} alt="Profile" />
+          <p className="text-center">OpenCV</p>
         </div>
 
+        <div>
+          <img className="h-20 w-20" src={Tensorflow} alt="Profile" />
+          <p className="text-center">Tensorflow</p>
+        </div>
+
+        <div>
+          <img className="h-20 w-20" src={PyTorch} alt="Profile" />
+          <p className="text-center">PyTorch</p>
+        </div>
+      </div>
     </div>
-
-  )
+  );
 }
 
 export default Languages

@@ -1,26 +1,53 @@
-import React from 'react'
-
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 
 const Navbar = () => {
+  // State to manage which theme is currently active
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Function to toggle the mode
+  const toggleTheme = () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const navbar = document.getElementById('navbar');
+    const isDarkMode = currentTheme === 'dark';
+  
+    document.documentElement.setAttribute('data-theme', isDarkMode ? 'light' : 'dark');
+    navbar.classList.toggle('navbar-light', !isDarkMode);
+    navbar.classList.toggle('navbar-dark', isDarkMode);
+  };
+  
+
   return (
-    <div className='flex justify-between items-center h-24  font-montserrat mx-auto px-4 border-b border-blue-500 '>
-        <h1 className = 'w-full  text-3xl  px-5'>Usama Mohiuddin</h1>
-        
-        <button   data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"    className = "toggle float-right mr-10 my-2" ></button>
-        
+    // "shadow-md" adds a shadow for better separation from the content below
+    // "bg-gray-800" for a solid dark background, replace with the color of your choice
+    <div id='navbar' className='fixed top-0 z-10 w-full shadow-lg flex justify-between items-center h-24 px-4 text-blue-500 navbar-light'>
+      <Link to="/" className='text-2xl mx-5 font-bold'>Usama.</Link>  
+      <ul className='md:flex text-md grid grid-cols-7 gap-12 mr-4 items-center font-semibold text-sm'>
+      <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/skills">Skills</Link></li>  
+        <li><Link to="/experience">Experience</Link></li>  
+        <li><Link to="/contact">Contact</Link></li>          
 
-        <ul className='md:flex text-md  grid grid-cols-4 gap-12 mr-4'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
-
-        </ul>
-    
-    
+        {/* Resume and Projects buttons */}
+        {/* <li>
+          <Link to="/resume">
+            <button className="btn btn-outline bg-blue-500 border-blue-500 text-black">Resume</button>
+          </Link>
+        </li>
+        <li>
+          <Link to="/projects">
+            <button className="btn btn-outline border-blue-500 text-blue-500">Projects</button>  
+          </Link>
+        </li> */}
+        <li onClick={toggleTheme} className="cursor-pointer my-2">
+          {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
+        </li>
+      </ul>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;
