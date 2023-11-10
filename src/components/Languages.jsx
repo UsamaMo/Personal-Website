@@ -199,7 +199,7 @@ const Languages = () => {
       <h1 className="flex justify-center text-3xl mb-20 mt-20">
         Programs and Applications
       </h1>
-      <div className="grid  grid-flow-col grid-cols-4  gap-40  justify-items-center mx-5 mb-40">
+      <div className="grid  grid-flow-col grid-cols-4  gap-40  justify-items-center mx-5 mb-20">
         <div>
           <img className="h-20 w-20 rounded-md" src={Pandas} alt="Profile" />
           <p className="text-center">Pandas</p>

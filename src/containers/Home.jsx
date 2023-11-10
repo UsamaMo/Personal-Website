@@ -15,7 +15,7 @@ const Home = () => {
           alt="Profile"
         /> */}
       <img
-        className="w-80 h-80 float-right mr-12 ml-32 rounded-2xl"
+        className="w-80 h-80 float-right mr-10 ml-32 rounded-2xl"
         src={Example}
         alt="Profile"
       />
@@ -23,7 +23,7 @@ const Home = () => {
       <div>
         <h1 className="text-5xl mb-5 font-bold">Hi, I'm Usama Mohiuddin</h1>
         <h2 className="text-3xl text-blue-500 mb-10">Full Stack Developer</h2>
-        <p className="text-lg mb-10">
+        <p className="text-lg mb-5">
           As a Full Stack Developer, I specialize in crafting seamless web
           experiences that are both user-friendly and efficient. With a strong
           foundation in both front-end and back-end technologies, I deliver
@@ -53,7 +53,7 @@ const Home = () => {
             </button>
           </Link>
         </div>
-        <div className="flex mt-52">
+        <div className="flex justify-end mt-10 mr-10 ">
           <SocialMediaIcons />
         </div>
       </div>

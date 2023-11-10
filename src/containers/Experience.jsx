@@ -17,14 +17,14 @@ const Experience = () => {
             <div class="my-4 flex justify-center text-2xl">Education</div>
             {/* <div class="bg-blue-500 p-4 mb-4">Row 2, Column 1</div> */}
             <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 border-l-4">
-              <h2 className="text-xl mb-2 text-blue-500">2005-2010</h2>
+              <h2 className="text-xl mb-2 text-blue-500">2021 - 2025</h2>
               <p className="text-grey-darker text-base mb-4">
                 Computer Science Degree- Wilfrid Laurier University
               </p>
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 border-l-4">
-              <h2 className="text-xl mb-2 text-blue-500 ">2010-2005</h2>
+              <h2 className="text-xl mb-2 text-blue-500 ">2018 - 2021</h2>
               <p className="text-grey-darker text-base mb-4">
                 Mechanical Engineer- Conestoga College
               </p>
@@ -39,28 +39,28 @@ const Experience = () => {
             {/* <div class="bg-green-500 p-4 mb-4">Row 2, Column 2</div> */}
             {/* <!-- Add more rows as needed here --> */}
             <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 border-l-4">
-              <h2 className="text-xl mb-2 text-blue-500">2010-2005</h2>
+              <h2 className="text-xl mb-2 text-blue-500">2023 - 2024</h2>
               <p className="text-grey-darker text-base mb-4">
                 Full Stack Developer - Sports.Excitement
               </p>
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 border-l-4">
-              <h2 className="text-xl mb-2 text-blue-500">2010-2005</h2>
+              <h2 className="text-xl mb-2 text-blue-500">2023 - 2024</h2>
               <p className="text-grey-darker text-base mb-4">
                 Web Developer - Laurier Computing Society Club
               </p>
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 border-l-4">
-              <h2 className="text-xl mb-2 text-blue-500">2010-2005</h2>
+              <h2 className="text-xl mb-2 text-blue-500">2023 - 2024</h2>
               <p className="text-grey-darker text-base mb-4">
                 Full Stack Developer - Laurier Muslim Student Association Club
               </p>
             </div>
 
             <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 border-l-4">
-              <h2 className="text-xl mb-2 text-blue-500">2010-2005</h2>
+              <h2 className="text-xl mb-2 text-blue-500">2023 - 2024</h2>
               <p className="text-grey-darker text-base mb-4">
                 Computer Science Lab Instructor Assistant
               </p>

@@ -3,7 +3,7 @@ import SocialMediaIcons from '../components/SocialMediaIcons';
 
 const Contact = () => {
   return (
-    <div className="mt-40" >
+    <div className="mt-40 mb-2" >
       <div className='flex items-baseline justify-center text-5xl font-bold'>
       <h1>Contact</h1>
       <h1 className='text-blue-500 ml-5'>Me!</h1>

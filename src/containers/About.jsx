@@ -3,7 +3,7 @@ import Example from "../assets/Replace.jpg";
 
 const About = () => {
   return (
-    <div className="mt-40" >   
+    <div className="mt-40 mb-2" >   
       <div className="flex flex-col justify-center items-center text-center">
         <div className='flex items-baseline justify-center text-5xl font-bold mb-14'>
           <h1>About</h1>
