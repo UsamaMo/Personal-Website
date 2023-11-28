@@ -13,7 +13,7 @@ const Skills = () => {
       <h1 className='text-blue-500 ml-5'>Skills</h1>
       </div>
 
-        <div className='grid grid-cols-3 grid-rows-2 gap-x-40 gap-y-10 justify-items-center mt-20 mb-60 mx-10'>
+        <div className='grid grid-cols-3 grid-rows-2 gap-x-40 gap-y-10 justify-items-center mt-12 mb-40 mx-10'>
 
             <div className='flex flex-col items-center'>
             <img className="h-20 w-20 p-2 object-cover object-center bg-blue-500 rounded-full" src={Algorithms} alt="Profile"/>

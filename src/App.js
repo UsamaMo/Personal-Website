@@ -11,10 +11,12 @@ import Contact from './containers/Contact';
 import Experience from './containers/Experience';
 import Footer from './components/Footer';
 
+
 function App() {
   useDarkMode();
   return (
     <div>
+      
       <Navbar/>
       <Routes>
         <Route index path='/' element={<Home/>}/>

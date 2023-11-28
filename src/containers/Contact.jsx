@@ -21,7 +21,7 @@ const Contact = () => {
       </div> */}
 
     
-      <div className="flex flex-col items-center mt-16 ">
+      <div className="flex flex-col items-center mt-12 ">
         {/* <!-- Contact Form --> */}
         <div className="w-full p-8 rounded-lg shadow-lg">
           <form>
