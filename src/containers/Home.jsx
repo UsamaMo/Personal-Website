@@ -8,6 +8,7 @@ import Example from "../assets/Replace.jpg";
 const Home = () => {
   return (
     <div className="mt-40 ml-10">
+      <p>TEST GITHUB PAGES DEPLOY PROCESS</p>
       {/*try to figure out how to make the background transparent*/}
       {/* <img
           className="relative bg-cover h-screen w-screen overflow-hidden"
