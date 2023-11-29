@@ -1,0 +1,10 @@
+To make changes to git pages website and redeploy
+
+1) git checkout main
+2) git pull origin main
+3) Make the Changes in main branch
+4) npm run build (for react)
+5) git add .
+6) git commit -m "git message"
+7) git push origin main
+8) npm run deploy
