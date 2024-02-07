@@ -1,7 +1,6 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 
-import useDarkMode from './components/darkMode';
 import Navbar from './components/Navbar';
 import Home from './containers/Home';
 import About from './containers/About';
@@ -13,7 +12,7 @@ import Footer from './components/Footer';
 
 
 function App() {
-  useDarkMode();
+
   return (
     <div>
       

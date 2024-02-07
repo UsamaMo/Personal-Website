@@ -25,7 +25,6 @@ const Navbar = () => {
     <div id='navbar' className='fixed top-0 z-10 w-full shadow-lg flex justify-between items-center h-24 px-4 text-blue-500 navbar-light'>
       <Link to="/" className='text-2xl mx-5 font-bold'>Usama.</Link>  
       <ul className='md:flex text-md grid grid-cols-7 gap-12 mr-4 items-center font-semibold text-sm'>
-        <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/skills">Skills</Link></li>  
         <li><Link to="/experience">Experience</Link></li>  

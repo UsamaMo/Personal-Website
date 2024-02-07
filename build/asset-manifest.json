@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae241b86.css",
-    "main.js": "/static/js/main.1e481671.js",
+    "main.css": "/static/css/main.21526b57.css",
+    "main.js": "/static/js/main.118843f3.js",
     "static/media/Usama_Background.png": "/static/media/Usama_Background.2bc235209280f1495328.png",
     "static/media/carless.jpg": "/static/media/carless.46c81e56d209b1908109.jpg",
     "static/media/Python.png": "/static/media/Python.c44b9b809ebf766cbb4f.png",
@@ -25,11 +25,11 @@
     "static/media/Front End.png": "/static/media/Front End.e93d52aa79ae6b69a57a.png",
     "static/media/Java.png": "/static/media/Java.6c64373d3b7415758078.png",
     "index.html": "/index.html",
-    "main.ae241b86.css.map": "/static/css/main.ae241b86.css.map",
-    "main.1e481671.js.map": "/static/js/main.1e481671.js.map"
+    "main.21526b57.css.map": "/static/css/main.21526b57.css.map",
+    "main.118843f3.js.map": "/static/js/main.118843f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae241b86.css",
-    "static/js/main.1e481671.js"
+    "static/css/main.21526b57.css",
+    "static/js/main.118843f3.js"
   ]
 }
