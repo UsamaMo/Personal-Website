@@ -53,7 +53,7 @@ const Home = () => {
             </button>
           </Link>
         </div>
-        <div className="flex md:justify-end sm:hidden  mt-10 mr-10  ">
+        <div className="flex md:block md:justify-end sm:hidden  mt-10 mr-10  ">
           <SocialMediaIcons />
         </div>
       </div>

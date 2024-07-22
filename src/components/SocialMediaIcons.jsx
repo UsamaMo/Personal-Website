@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const SocialMediaIcons = () => {
   return (
-    <div className="flex justify-center space-x-4 ">
+    <div className="flex justify-end space-x-4 ">
       <a href="https://github.com/UsamaMo" className="text-blue-500 hover:text-black">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
