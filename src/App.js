@@ -1,6 +1,4 @@
 import React from 'react';
-import {Routes, Route} from 'react-router-dom';
-
 import Navbar from './components/Navbar';
 import Home from './containers/Home';
 import About from './containers/About';
@@ -10,26 +8,31 @@ import Contact from './containers/Contact';
 import Experience from './containers/Experience';
 import Footer from './components/Footer';
 
-
 function App() {
-
   return (
-    <div>
-      
-      <Navbar/>
-      <Routes>
-        <Route index path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/skills' element={<Skills/>}/>
-        <Route path='/experience' element={<Experience/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-        <Route path='/projects' element={<Projects/>}/>
-      </Routes>
-
-      {/* <Footer/> */}
-      {/* <div className=''>
-        <p className='text-center'>@UsamaMohiuddin</p>
-      </div> */}
+    <div className='sm:flex sm:justify-center'>
+      <Navbar />
+      <main>
+        <section id="home">
+          <Home />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        {/* <section id="projects">
+          <Projects />
+        </section> */}
+        <section id="contact">
+          <Contact />
+        </section>
+      </main>
+      {/* <Footer /> */}
     </div>
   );
 }

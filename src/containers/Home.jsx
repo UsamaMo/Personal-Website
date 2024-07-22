@@ -7,7 +7,7 @@ import Example from "../assets/Replace.jpg";
 
 const Home = () => {
   return (
-    <div className="mt-40 ml-10  sm:ml-4 sm:mr-4 sm:mt-30 ">
+    <div className="mt-60 mb-80 ml-10  sm:mx-4 sm:mt-32 max-w-full max-h-full">
       {/*try to figure out how to make the background transparent*/}
       {/* <img
           className="relative bg-cover h-screen w-screen overflow-hidden"
@@ -15,7 +15,7 @@ const Home = () => {
           alt="Profile"
         /> */}
       <img
-        className="w-80 h-80 float-right mr-10 ml-32 rounded-2xl sm:mx-4 sm:mb-10"
+        className="w-80 h-80 float-right mr-10 ml-32 rounded-2xl  sm:mb-10"
         src={Example}
         alt="Profile"
       />
@@ -31,7 +31,7 @@ const Home = () => {
           technology and continuous learning keeps me at the forefront of the
           latest industry trends and best practices.
         </p>
-        <div className='sm:flex sm:justify-center'>
+        <div className='flex sm:justify-center  md:justify-start'>
           <a
             href="https://drive.google.com/file/d/1Ks0-ltYjCa-97rzsB3-nhkj9XZqK10i8/view?usp=sharing"
             target="_blank"
@@ -53,7 +53,7 @@ const Home = () => {
             </button>
           </Link>
         </div>
-        <div className="flex justify-end sm:justify-center sm:mx-auto  mt-10 mr-10  ">
+        <div className="flex md:justify-end sm:hidden  mt-10 mr-10  ">
           <SocialMediaIcons />
         </div>
       </div>

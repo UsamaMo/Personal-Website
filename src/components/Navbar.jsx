@@ -22,13 +22,13 @@ const Navbar = () => {
   return (
     // "shadow-md" adds a shadow for better separation from the content below
     // "bg-gray-800" for a solid dark background, replace with the color of your choice
-    <div id='navbar' className='fixed top-0 z-10 shadow-lg flex justify-between items-center h-24 px-4 text-blue-500 navbar-light md: w-full'>
-      <Link to="/" className='text-2xl mx-5 font-bold sm:text-lg sm:ml-0'>Usama.</Link>  
-      <ul className='flex max-w-full text-md grid grid-cols-7 gap-12 mr-4 items-center font-semibold text-sm sm:text-xs sm:gap-14'>
-        <li><Link to="/about" >About</Link></li>
-        <li><Link to="/skills" >Skills</Link></li>  
-        <li><Link to="/experience">Exp.</Link></li>  
-        <li><Link to="/contact">Contact</Link></li>          
+    <div id='navbar' className='  fixed top-0 z-10 w-full shadow-lg flex justify-between items-center h-24 px-4 text-blue-500 navbar-light'>
+      <a href="#home" className='md:text-2xl ml-4 font-bold sm:text-md sm:px-0 sm:mr-2'>Usama.</a>  
+      <ul className='flex  md:text-md grid grid-cols-5 gap-12 mr-4 items-center font-semibold text-sm sm:text-xs sm:gap-14'>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#skills" >Skills</a></li>  
+        <li><a href="#experience">Exp.</a></li>  
+        <li><a href="#contact">Contact</a></li>          
 
         {/* Resume and Projects buttons */}
         {/* <li>

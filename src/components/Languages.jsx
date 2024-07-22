@@ -36,7 +36,7 @@ import PyTorch from "../assets/Logos/PyTorch.png";
 
 const Languages = () => {
   return (
-    <div>
+    <div className=''>
       {/* <div class="min-h-screen flex items-center justify-center px-4">
         <div class="grid grid-cols-3 gap-8 w-full">
           {/* <!-- Column 1 --> */}
@@ -78,7 +78,7 @@ const Languages = () => {
 
       {/* original code below----------------------------------------------------- */}
 
-      <h1 className="flex justify-center text-3xl mb-20">Languages</h1>
+      <h1 className="flex justify-center text-3xl mb-20 ">Languages</h1>
       <div className="grid  grid-flow-col grid-cols-10 grid-rows-1 gap-x-5 gap-y-10  justify-items-center mx-5">
         <div>
           <img className="h-20 w-20" src={Python} alt="Profile" />
@@ -199,7 +199,7 @@ const Languages = () => {
       <h1 className="flex justify-center text-3xl mb-20 mt-20">
         Programs and Applications
       </h1>
-      <div className="grid  grid-flow-col grid-cols-4  gap-40  justify-items-center mx-5 mb-20">
+      <div className="grid  grid-flow-col grid-cols-4  gap-40 sm:gap-20 justify-items-center mx-5 mb-20">
         <div>
           <img className="h-20 w-20 rounded-md" src={Pandas} alt="Profile" />
           <p className="text-center">Pandas</p>

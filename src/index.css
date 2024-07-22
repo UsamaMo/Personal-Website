@@ -6,6 +6,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
 
 /* Add this in your global CSS file */
 .navbar-dark {
