@@ -7,7 +7,7 @@ import Example from "../assets/Replace.jpg";
 
 const Home = () => {
   return (
-    <div className="mt-40 ml-10">
+    <div className="mt-40 ml-10  sm:ml-4 sm:mr-4 sm:mt-30 ">
       {/*try to figure out how to make the background transparent*/}
       {/* <img
           className="relative bg-cover h-screen w-screen overflow-hidden"
@@ -15,12 +15,12 @@ const Home = () => {
           alt="Profile"
         /> */}
       <img
-        className="w-80 h-80 float-right mr-10 ml-32 rounded-2xl"
+        className="w-80 h-80 float-right mr-10 ml-32 rounded-2xl sm:mx-4 sm:mb-10"
         src={Example}
         alt="Profile"
       />
 
-      <div>
+      <div className='sm:mx-4'>
         <h1 className="text-5xl mb-5 font-bold">Hi, I'm Usama Mohiuddin</h1>
         <h2 className="text-3xl text-blue-500 mb-10">Full Stack Developer</h2>
         <p className="text-lg mb-5">
@@ -31,7 +31,7 @@ const Home = () => {
           technology and continuous learning keeps me at the forefront of the
           latest industry trends and best practices.
         </p>
-        <div>
+        <div className='sm:flex sm:justify-center'>
           <a
             href="https://drive.google.com/file/d/1Ks0-ltYjCa-97rzsB3-nhkj9XZqK10i8/view?usp=sharing"
             target="_blank"
@@ -43,17 +43,17 @@ const Home = () => {
           </a>
 
           <Link to="/projects">
-            <button className="btn btn-outline border-blue-500 text-blue-500">
+            <button className="btn btn-outline border-blue-500 text-blue-500 mr-3">
               Projects
             </button>
           </Link>
           <Link to="/contact">
-            <button className="btn btn-outline border-blue-500 text-blue-500 ml-3">
+            <button className="btn btn-outline border-blue-500 text-blue-500 ">
               Connect with Me
             </button>
           </Link>
         </div>
-        <div className="flex justify-end mt-10 mr-10 ">
+        <div className="flex justify-end sm:justify-center sm:mx-auto  mt-10 mr-10  ">
           <SocialMediaIcons />
         </div>
       </div>

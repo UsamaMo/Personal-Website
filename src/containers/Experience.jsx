@@ -3,10 +3,10 @@ import Carousel from "../components/Carousel";
 
 const Experience = () => {
   return (
-    <div className="mt-40">
-      <div className="flex items-baseline justify-center text-5xl font-bold">
+    <div className="mt-40 sm:mx-4">
+      <div className="flex items-baseline justify-center text-5xl font-bold sm:text-4xl">
         <h1>My</h1>
-        <h1 className="text-blue-500 ml-5">Journey</h1>
+        <h1 className="text-blue-500 ml-5 sm:text-4xl">Journey</h1>
       </div>
 
       <div class="min-h-screen flex items-center justify-center">
@@ -70,7 +70,7 @@ const Experience = () => {
       </div>
 
       {/* Creating a caraousel for highlight images */}
-      <div className="flex items-baseline justify-center text-5xl font-bold mt-20">
+      <div className="flex items-baseline justify-center text-5xl font-bold mt-20 sm:text-4xl">
         <h1 className="text-blue-500 mr-5">Journey</h1>
         <h1>Highlights</h1>
         

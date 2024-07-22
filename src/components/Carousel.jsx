@@ -9,7 +9,7 @@ import Carless from "../assets/Highlights/carless.jpg"
 
 const Carousel = () => {
   return (
-    <div className="flex mx-80 mt-20 mb-10 carousel h-72 overflow-hidden rounded-xl">
+    <div className="flex  marker:mx-80 mt-20 mb-10 carousel sm:h-72 h-72 overflow-hidden rounded-xl ">
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative w-full h-full">
         <img src={Skyline} className="w-full h-full shadow-lg " alt="Vector"/>

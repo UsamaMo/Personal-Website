@@ -7,7 +7,7 @@ import Languages from "../components/Languages"
 
 const Skills = () => {
   return (
-    <div className=' mt-40'>
+    <div className=' mt-40 sm:ml-4 sm:mr-4 sm:max-w-full'>
       <div className='flex items-baseline justify-center text-5xl font-bold'>
       <h1>My</h1>
       <h1 className='text-blue-500 ml-5'>Skills</h1>
