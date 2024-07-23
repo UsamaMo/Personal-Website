@@ -13,22 +13,22 @@ function App() {
     <div className='sm:flex sm:justify-center'>
       <Navbar />
       <main>
-        <section id="home">
+        <section id="home" className='section mt-36'>
           <Home />
         </section>
-        <section id="about">
+        <section id="about" className='section'>
           <About />
         </section>
-        <section id="skills">
+        <section id="skills" className='section mt-80'>
           <Skills />
         </section>
-        <section id="experience">
+        <section id="experience" className='section'>
           <Experience />
         </section>
-        {/* <section id="projects">
+        <section id="projects" className='section'>
           <Projects />
-        </section> */}
-        <section id="contact">
+        </section>
+        <section id="contact" className='section'>
           <Contact />
         </section>
       </main>

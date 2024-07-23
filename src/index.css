@@ -15,8 +15,12 @@ html, body {
     background-color: #f8f9fa; /* light gray */
   }
   
-  .navbar-light {
-    background-color: #1D232A; /* dark gray */
-  }
+.navbar-light {
+  background-color: #1D232A; /* dark gray */
+}
+
+.section {
+  scroll-margin-top: 145px; /* Adjust this value to match the height of your navbar */
+}
   
 

@@ -41,16 +41,20 @@ const Home = () => {
             </button>
           </a>
 
-          <Link to="/projects">
-            <button className="btn btn-outline border-blue-500 text-blue-500 mr-3">
+          <a href="#projects">
+          <button  className="btn btn-outline border-blue-500 text-blue-500 mr-3">
               Projects
             </button>
-          </Link>
-          <Link to="/contact">
-            <button className="btn btn-outline border-blue-500 text-blue-500 ">
+          </a>
+            
+
+          <a href="#contact">
+          <button  className="btn btn-outline border-blue-500 text-blue-500 ">
               Connect with Me
             </button>
-          </Link>
+          </a>
+
+
         </div>
         <div className="flex md:block md:justify-end sm:hidden  mt-10 mr-10  ">
           <SocialMediaIcons />

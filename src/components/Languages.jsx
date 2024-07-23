@@ -36,7 +36,7 @@ import PyTorch from "../assets/Logos/PyTorch.png";
 
 const Languages = () => {
   return (
-    <div className=''>
+    <div >
       {/* <div class="min-h-screen flex items-center justify-center px-4">
         <div class="grid grid-cols-3 gap-8 w-full">
           {/* <!-- Column 1 --> */}

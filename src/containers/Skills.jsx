@@ -7,13 +7,13 @@ import Languages from "../components/Languages"
 
 const Skills = () => {
   return (
-    <div className=' mt-40 sm:mx-2'>
+    <div className=' sm:mx-2'>
       <div className='flex items-baseline justify-center text-5xl font-bold'>
       <h1>My</h1>
       <h1 className='text-blue-500 ml-5'>Skills</h1>
       </div>
 
-        <div className='grid grid-cols-3 grid-rows-2 gap-x-40 gap-y-10 justify-items-center mt-12 mb-40 sm:gap-x-5 sm:gap-y-5 sm:mb-10 mx-10'>
+        <div className='grid grid-cols-3 grid-rows-2 gap-x-40 gap-y-10 justify-items-center mt-12 mb-80 sm:gap-x-5 sm:gap-y-5 sm:mb-10 mx-10'>
 
             <div className='flex flex-col items-center'>
             <img className="h-20 w-20 p-2 object-cover object-center bg-blue-500 rounded-full" src={Algorithms} alt="Profile"/>
