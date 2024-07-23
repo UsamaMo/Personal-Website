@@ -1,5 +1,5 @@
 import React from "react";
-import Example from "../assets/Replace.jpg";
+import Example from "../assets/pfp.jpg";
 
 const About = () => {
   return (
@@ -9,12 +9,12 @@ const About = () => {
           <h1>About</h1>
           <h1 className='text-blue-500 ml-5'>Me</h1>
         </div>
-        <img
+        {/* <img
         className=" rounded-full w-52 h-52 "
         src={Example}
         alt="Profile"
-      />
-        <p className="mt-12 mx-20 ">
+      /> */}
+        <p className="mx-20">
             Welcome to my corner of the internet. I'm a passionate and curious
             third-year computer science student with a love for coding,
             problem-solving, and all things tech. As I embark on this exciting

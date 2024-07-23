@@ -1,8 +1,7 @@
 import React from 'react'
-import Background from "../assets/Usama_Background.png";
 import { Link } from 'react-router-dom';
 import SocialMediaIcons from '../components/SocialMediaIcons';
-import Example from "../assets/Replace.jpg";
+import Example from "../assets/pfp.jpg";
 
 
 const Home = () => {
