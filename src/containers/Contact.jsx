@@ -1,5 +1,13 @@
 import React from 'react';
 import SocialMediaIcons from '../components/SocialMediaIcons';
+import emailjs from '@emailjs/browser';
+
+
+const sendEmail = (e) => {
+  e.preventDefault();
+  alert('Form submitted');
+  emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY);
+}
 
 const Contact = () => {
   return (
@@ -24,7 +32,7 @@ const Contact = () => {
       <div className="flex flex-col items-center mt-12 ">
         {/* <!-- Contact Form --> */}
         <div className="w-full p-8 rounded-lg shadow-lg">
-          <form>
+          <form onSubmit={sendEmail}>
             {/* <!-- Name Input --> */}
             <div className="mb-4">
 
